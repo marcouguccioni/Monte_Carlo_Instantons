@@ -1,0 +1,21 @@
+MONTE CARLO PATH INTEGRALS AND INSTANTONS.
+
+Scheme.
+
+INTRODUCTION: Discussion about Instantons (so euclidean PI) and Tunneling events in quantum mechanics (euclidean PI)
+using the toy example of the double well.
+
+
+EXACT DIAGONALIZATION: Reference problem. solve the schroedinger problem for the double well potential using HO eigenstates. 
+Used to compare results in monte carlo.
+
+MONTE CARLO ON EUCLIDEAN LATTICE: use metropolis algorithm to compute partition functions and Free Energy (adiabatic technique).
+Compare with the previous results (this is worse than the exact but useful when more dimensions). 
+
+COOLING METHOD: method that allow to get the instanton density (tunneling rate) 
+but we lose information on the correlation functions, since we are neglecting quantum fluctuations.
+
+HEATING METHOD: opposite method. Allow to compute correlation functions starting from a classical ensemble 
+of non interacting instantons (Random Gas) and we perturb with Gaussian potential.
+Notice about the result: CF are not precise because one should consider interactions and non gaussian effects (Liquid Model).
+
